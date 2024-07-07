@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Card</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            background-color: #f4f4f4;
+            margin: 0;
+        }
+        header {
+            background-color: #333;
+            color: #e9ebef;
+            padding: 10px;
+            text-align: center;
+            width: 100%;
+        }
+
+        .card {
+            background: #fefeff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 350px;
+            text-align: center;
+            margin-top: 20px;
+            border: 2px solid #333; /* Add this line to add a border */
+        }
+
+        .card h2 {
+            margin: 0 0 10px;
+            font-size: 24px;
+        }
+
+        .card .details {
+            text-align: left;
+            font-size: 16px;
+            color: #333;
+            margin-top: 20px;
+        }
+
+        .card .details .title {
+            font-weight: bold;
+            color: #555;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .card .details .title span {
+            flex: 1;
+        }
+
+        .card .details .title span:first-child {
+            flex: 0 0 140px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>NTPC</h1>
+    </header>
+    <div class="card">
+        <img src="Images/KAILASH" alt="Employee Photo" style="width: 100px; height: 100px; border-radius: 50%;">
+        <h2>KAILASH KUMAR MAHTO</h2>
+        <div class="details">
+            <div class="title"><span> &nbsp; &nbsp; &nbsp; EMPLOYEE ID</span>:<span> &nbsp;  610063</span></div>
+            <div class="title"><span> &nbsp; &nbsp; &nbsp; AUTH. AS</span>:<span> &nbsp;  OVERMAN</span></div>
+            <div class="title"><span> &nbsp; &nbsp; &nbsp; DESIGNATION</span>:<span> &nbsp;  JUNIOR ENGINEER</span></div>
+            <div class="title"><span> &nbsp; &nbsp; &nbsp; CONTACT</span>:<span> &nbsp;  8271818802</span></div>
+            <div class="title"><span> &nbsp; &nbsp; &nbsp; BLOOD GR.</span>:<span> &nbsp;  O POSITIVE</span></div>
+
+        </div>
+    </div>
+</body>
+</html>
